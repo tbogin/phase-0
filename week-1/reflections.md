@@ -48,3 +48,21 @@ help – finds information on CLI commands.
 ```
 
 ## 1.3 Forking and Cloning: Reflection
+
+Create a new repository:
+1. Log onto GitHub
+2. Click the + icon next to your avatar thumbnail
+3. Click 'New Repository.' Then name the new repo, and give it content
+
+Fork a repository:
+1. Choose a repo you'd like to work on
+2. Click the 'Fork' button on the repo's taskbar
+3. GitHub will direct you to a page with your version of the repo (username/repo-name). That's your branch of the repo.
+
+Clone a repo:
+1. Copy the URL of your repo branch provided by GitHub
+2. Open the CLI
+3. cd to the folder in which you want to place your repo branch
+4. type: git clone <URL from GitHub>. Now you have a repo clone to work with.
+
+My main struggle with setting up GitHub was the busy-ness of the layout. It took me a while to feel comfortable navigating the site. I'm still learning the ins and outs of the site.
