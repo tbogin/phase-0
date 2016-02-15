@@ -1,4 +1,4 @@
-![SiteMap](week-2/imgs/site-map.png 'Site Map')
+![SiteMap](imgs/site-map.png 'Site Map')
 
 ## Site Map Reflection
 
