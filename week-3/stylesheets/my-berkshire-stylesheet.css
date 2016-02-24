@@ -1,0 +1,73 @@
+ul {
+   -moz-column-count: 2;
+   -moz-column-gap: 60px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 60px;
+   column-count: 2;
+   column-gap: 60px;
+}
+
+body {
+  color:#000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+background-color {
+  #ffffff;
+}
+li p {
+  color:#000000;
+  font-size:8px;
+}
+h1 {
+  font-weight:bold;
+  font-size:28px;
+  text-align:center;
+}
+
+h3
+  {
+    white-space:pre-line;
+    text-align:center;
+    border-bottom:1px ridge black;
+  }
+  .big  {
+    font-size:32px;
+  }
+  footer {
+    text-align:center;
+    
+  }
+  #geico {
+    border-top:1px ridge black;
+    border-bottom:1px ridge black;
+  }
+  #disclaimer  {
+    border-top:1px ridge black;
+  }
+
+  /* 
+  Reflection
+
+  What is important to know when linking an external file with an HTML file?
+  It is important to know the filepath in order to write the correct relative link within the HTML page's <link>
+  
+  What tricks did you use to help with positioning? How hard was it to get the site as you wanted?
+  We used text-align to center the header and footer elements. text-align: center; is simple to implement, as it doesn't require further detail.
+
+  What CSS did you use to modify the element style?
+  We used color (hex, and normal), font-size, font-weight, border, white-space, text-align, and column
+
+  Did you modify the HTML to include classes or ids? If so, which did you choose, and why?
+  We added <span> around the "B" in Berkshire and the "H" in Hathaway, and gave those tags a class in order to increase the font-size of those two letters.
+
+  Compared to the actual BH site, which do you think had cleaner code, and used best practices?
+  Our site used best practices, and had cleaner code. The BH official site styled all its elements within the HTML, as opposed to our separate stylesheet, and used a table instead of ul to display its links. 
+  */
