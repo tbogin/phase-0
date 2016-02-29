@@ -15,7 +15,10 @@ fave = gets.chomp
 bigger = fave.to_i + 1
 puts "You're thinking small! How about #{bigger}?!"
 
-
+# Module links
+https://github.com/tbogin/phase-0/tree/master/week-4/math
+https://github.com/tbogin/phase-0/tree/master/week-4/address
+https://github.com/tbogin/phase-0/tree/master/week-4/define-method
 
 =begin
 Reflection
