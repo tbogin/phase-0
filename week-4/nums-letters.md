@@ -1,8 +1,8 @@
 ## 4.2: Numbers, Letters, and Variable Assignment
 
-[Defining variables](week-4/defining-variables.rb)
-[Simple strings](week-4/simple-strings.rb)
-[Basic math](week-4/basic-math.rb)
+[Defining variables](defining-variables.rb)
+[Simple strings](simple-string.rb)
+[Basic math](basic-math.rb)
 
 
 **What does puts do?**
