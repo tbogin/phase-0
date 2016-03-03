@@ -1,0 +1,25 @@
+header {
+  background-color: grey;
+  margin-bottom: -15px;
+}
+
+.column-1 {
+  float: left;
+  width: 50%;
+  background-color: cyan;
+}
+
+.column-2 {
+  float: right;
+  width: 50%;
+  background-color: cyan;
+}
+
+article {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  clear: left;
+}
