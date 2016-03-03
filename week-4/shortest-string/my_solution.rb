@@ -11,14 +11,14 @@
 # If +list_of_words+ is empty the method should return nil
 
 #Your Solution Below
-def shortest_string(x,y)
-  if x.length < y.length
-    puts x
-  if y.length < x.length
-    puts y
-  else 
-    puts "Nothing"
+def shortest_string(list_of_words)
+  short = list_of_words[0]
+  i = 0
+  while i < list_of_words.length
+  short = list_of_words[i] if list_of_words[i].length < short.length
+  i += 1
   end
+  short
 end
 
-p shortest_string("dog","fish")
+p shortest_string(["Fish", "Dog","Horse"])
