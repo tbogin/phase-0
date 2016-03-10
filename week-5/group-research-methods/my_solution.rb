@@ -27,6 +27,21 @@ end
 p my_array_finding_method(i_want_pets, "a")
 
 
+=begin
+Identify and describe the Ruby method you implemented
+  I used the .each method, along with the .include? method in order to locate an individual letter in the array items
+
+Teach your accountability group how to use the methods
+  obect.each do |placeholder variable(s)| 
+                  code block 
+            end -- this enumerable method iterates through all items of an object, manipulating them according to your specifications
+            
+  The .include? method within the code block checks if items include a string/subtring, integer, etc...
+  
+Share any tricks you used to find and decipher the Ruby Docs
+  RubyDocs for Newbs was very helpful. Check the index of methods on the right of the page, checking any that may just work
+=end
+
 #find value, find key by value, ---> any?
 #Return an array of key(s) from the pets array corresponding with the age argument
 
@@ -39,3 +54,12 @@ def my_hash_finding_method(hash, number)
 end
 
 p my_hash_finding_method(my_family_pets_ages, 12) #should return George
+
+=begin
+Identify and describe the Ruby method you implemented
+  I used the .any? enumerable method in order to iterate through the hash and check for hash values equaling my number argument
+  I also used push (<<) to send all relevant hash keys into my return array
+
+Teach your accountability group how to use the methods
+  .any? is similar to .each. You set up placeholder variables in the block, and then specify the conditions that will make your items pass
+=end
