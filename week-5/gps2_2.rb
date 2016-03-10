@@ -50,28 +50,27 @@ end
 
 p groceries("apples, oranges, milk")
 
-def add_item(x,y)
-grocery_list = {}
-grocery_list[x] = y.to_i
+def add_item(list, item, quantity =1)
+  list[item] = quantity
 end
-add_item("cookies",3)
+p add_item(grocery_list, "cookies",3)
 #hash = { }
 #hash[:a] = 'a'
 #hash[:a]
 
-def remove_item(x,y)
-  grocery_list = {}
-  grocery_list[x].pop
+def remove_item(list, item)
+  list.delete(item)
+  list
 end
 
-def update_quantity(x,y)
-  grocery_list = {}
-  grocery_list.update(grocery_list){|x,y| f(y)}
- # hash.update(hash){|key,v1| f(v1)}
+def update_quantity(list, item, new_quantity=1)
+  list[item] = new_quantity
 end
   
 def print_list(grocery_list)
-  p grocery_list
+  grocery_list.each do |k,v|
+    puts "#{v} #{k}"
+  end
 end
 
 =begin
