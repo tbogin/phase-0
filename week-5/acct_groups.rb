@@ -28,9 +28,27 @@ def acct(array_of_names)
 		extras << subarray.shift
 		end
 	end
-
 end
+p acct(["Ted","Bob","Linda","Brandon","Gus","Ben","Jordan"])
 
+
+=begin
+What was the most interesting and most difficult part of this challenge?
+The most interesting and difficult part was finding the right methods that would create a working program
+
+Do you feel you are improving in your ability to write pseudocode and break the problem down?
+The steps are becoming more intuitive as I write more code
+
+Was your approach for automating this task a good solution? What could have made it even better?
+I wanted to split my list of names argument into subarrays, and then portion the remaining names into existing subarrays
+
+What data structure did you decide to store the accountability groups in and why?
+Arrays
+
+What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+My refactored solution portions remaining names into existing subarrays. From this challenge, I learned each_slice, any?, empty?, and flatten
+
+=end
 
 =begin
 def acct(array_of_names)
@@ -71,7 +89,7 @@ def acct(array_of_names)
 	end
 end
 =end
-p acct(["Ted","Bob","Linda","Brandon","Gus","Ben","Jordan"])
+
 
 
 
