@@ -6,9 +6,16 @@
 
 # 0. Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: class Die
+# Output: objects instantiated from class Die
+# Steps: 
+#Create class Die
+#Initialize the sides of the die
+#Raise an ArgumentError if sides are less than 1
+#Create a method for returning sides of die
+#Create a method for rolling the die
+#Instantiate an object from class Die
+#Use class Die's methods on that object to show sides, and roll the dice
 
 
 # 1. Initial Solution
