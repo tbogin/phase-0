@@ -25,39 +25,7 @@ def separate_comma(integer) #running this program gets me an array of each integ
   integer.to_s.split(//).each{|n| new_array << n} 
 end
 p separate_comma(10000)
-#Below: failed method graveyard 
-=begin
-def separate_comma(integer)
-  integer.to_s.reverse.each do |n|
-    integer.insert(n,",") if n% 3 == 0
-  end
-  interger.to_s
-end
-
-separate_comma(10000)
-=end
-=begin
-def separate_comma(integer)
-  i = 0
-  while i < integer.to_s.length
-  integer.to_s.insert(i, ",") if integer[-i] % 3 == 0
-  i += 1
-  end
-  integer.to_s
-end
-p separate_comma(10000)
-=end
-=begin
-def separate_comma(integer)
-  i = integer.to_s.length
-  until i == 0
-  integer.to_s.insert(i, ",") if integer.to_s[i] % 3 == 0
-    i -= 0
-  end
-  integer.to_s
-end
-p separate_comma(10000)
-=end
+#I was trying to use the insert method. When that didn't get me past an array of numbers.to_s, I just took it out of the method
 
 # 2. Refactored Solution
 
