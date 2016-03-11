@@ -30,6 +30,31 @@ def acct(array_of_names)
 	end
 
 end
+p acct(["Ted","Bob","Linda","Brandon","Gus","Ben","Jordan"])
+
+
+=begin
+What was the most interesting and most difficult part of this challenge?
+The most interesting and difficult part of the challenge was converting my pseudocode a working method.
+
+Do you feel you are improving in your ability to write pseudocode and break the problem down?
+Yes!
+
+Was your approach for automating this task a good solution? What could have made it even better?
+I wanted to:
+1) Slice the original list of names into equally sized subarrays
+2) Add subarrays to an array, making a 2D array
+3)Iterate through 2D array for subarrays with fewer items than the rest (remainders)
+4) Apportion smaller subarray items into another subarray
+Automating this task would have been better with an in-built method for sorting remainders.
+
+What data structure did you decide to store the accountability groups in and why?
+A list of names (strings)
+
+What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+A few new in-built methods
+=end
+
 
 
 =begin
@@ -71,7 +96,7 @@ def acct(array_of_names)
 	end
 end
 =end
-p acct(["Ted","Bob","Linda","Brandon","Gus","Ben","Jordan"])
+
 
 
 
