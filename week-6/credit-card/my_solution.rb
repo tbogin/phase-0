@@ -102,3 +102,13 @@ def check_card
 end
 card = CreditCard.new(1234567896543219)
 p card.check_card
+
+#Reflection
+# What was the most difficult part of this challenge for you and your pair?
+  #Refactoring our initial solutuion. We came very close, but had to go through each line to find out what didn't work.
+
+# What new methods did you find to help you when you refactored?
+  #We used the nifty inject method in order to sum the numbers, which I wrote about for my technical blog last week
+  
+# What concepts or learnings were you able to solidify in this challenge?
+  #The relationship between strings, fixnums, and arrays - it's still a bit frustrating to do conversions between strings and fixnums
