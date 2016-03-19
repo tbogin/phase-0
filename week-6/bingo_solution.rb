@@ -58,6 +58,10 @@ class BingoBoard
     end
     @bingo_board 
   end
+  
+  def show_board
+    @bingo_board
+  end
 
 end
 
@@ -71,7 +75,7 @@ bongo = Bingo.new([
 
  p bongo.letter_number(["B","I","N","G","O"])
  p bongo.bingo_check
-
+ p bongo.show_board
 
 
 
@@ -112,6 +116,9 @@ end
     p @bingo_board[4]
  end
  
+  def show_board
+    @bingo_board
+  end
 
 end
 
@@ -125,7 +132,7 @@ senior_center = Bingo.new([
 
  p senior_center.letter_number(["B","I","N","G","O"])
  p senior_center.bingo_check
-
+p senior_center.show_board
 
 #Reflection
 # How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
