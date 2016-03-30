@@ -1,28 +1,30 @@
 
-**Commands**
+**Commands** 
 
-SELECT * FROM state-region -- will fetch all data from state-region table
+SELECT * FROM states; -- fetches all data from 'states' table
 
-SELECT id, region_name FROM state-region;
+SELECT * FROM regions; -- fetches all data from 'regions' table
 
-SELECT state_name, population FROM state-region;
+SELECT state_name, population FROM states; -- fetches state name and population from state table
 
 SELECT state_name, population
-  ORDER BY population DESC;
+  ORDER BY population DESC; -- fetches state name and population, ordered from highest-lowest population
 
-SELECT * FROM state-region WHERE id = 7;
+SELECT state_name FROM states WHERE region-id = 7;
 
-SELECT state_name, population_density FROM state-region WHERE population_density > 50
+SELECT state_name, population_density FROM states WHERE population_density > 50
   ORDER BY population_density ASC;
   
-SELECT state_name FROM state-region WHERE state_name BETWEEN 1000000 AND 1500000;
+SELECT state_name FROM states WHERE population_density BETWEEN 1000000 AND 1500000;
 
 SELECT state_name, region_id 
   ORDER BY region ASC;
   
-SELECT FROM state-region WHERE region_name LIKE '%central%'
+SELECT FROM state-region WHERE region_name LIKE '%central%';
 
-Complete 10 next time
+SELECT states.state_name, regions.region_name FROM states -- select the columns you want FROM the table with the foreign key
+INNER JOIN regions ON states.region_id = regions.id -- join table with foreign key with table w/ primary key
+ORDER BY region_id ASC; 
 
 
 

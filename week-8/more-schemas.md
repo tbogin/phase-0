@@ -1,8 +1,8 @@
-![One-to-one schema](week-8/imgs/element_schema.png "One-to-one schema")
-![Many-to-many schema](week-8/imgs/grocery_schema.png "Many-to-many schema")
+![One-to-one schema](../week-8/imgs/element_schema.png "One-to-one schema")
+![Many-to-many schema](../week-8/imgs/grocery_schema.png "Many-to-many schema")
 
 **Reflection**
-
+ 
 **What is a one-to-one database?**
 	A one-to-one database is one in which two attributes on different tables have a single relationship to one another.
 
